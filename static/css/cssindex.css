@@ -1,0 +1,37 @@
+body{
+	background-color:#DCDCDC;
+	color:#505050;
+	font-family: verdana;
+}
+section{
+ width:70%; 
+ text-align: left;
+ margin-left:10%;
+ margin-top: 50px;
+}
+nav{
+    text-align: center;
+	background-color: #D0D0D0 ;
+	border-radius:50px;
+	height:40px;
+	margin-left:10%;
+    margin-right: 10%;
+}
+nav div
+{
+  display:inline-block;
+  width:10%;
+  border: 5px solid #909090;
+  border-radius:50px;
+  margin-left:5%;
+  margin-right: 5%;
+}
+nav a{
+  color:#484848 ;
+  text-decoration:none;
+
+}
+.introduction{
+     margin-left:10%;
+     margin-right: 10%;
+}
