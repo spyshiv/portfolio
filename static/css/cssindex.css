@@ -9,6 +9,15 @@ section{
  margin-left:10%;
  margin-top: 50px;
 }
+#profile_pic{
+ float:right;
+ border:5px solid #E6E6E6;
+ border-radius: 150px;
+}
+#profile_pic:hover{
+  width:300px;
+  height:300px;
+}
 nav{
 
   text-align: center;
@@ -35,4 +44,6 @@ nav a{
 .introduction{
      margin-left:10%;
      margin-right: 10%;
+     /*background-color:#8F8FB2;*/
+     border: 5px solid #909090;
 }
