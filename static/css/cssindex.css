@@ -1,5 +1,5 @@
 body{
-	background-color:#DCDCDC;
+	background-color:#EBF0FF;
 	color:#505050;
 	font-family: verdana;
 }
@@ -21,7 +21,8 @@ section{
 nav{
 
   text-align: center;
-	background-color: #D0D0D0 ;
+	/*background-color: #D0D0D0 ;*/
+  background-color:  #C2D1FF;
 	border-radius:50px;
 	height:40px;
 	margin-left:10%;
@@ -49,9 +50,13 @@ nav a:hover{
 .introduction{
      margin-left:10%;
      margin-right: 10%;
-     /*background-color:#8F8FB2;*/
+     
+     background-color: #D6E0FF;
      border: 5px solid #909090;
+     border-radius:25px;
+
 }
 .whole_part{
   margin-left: 10px;
+  margin-right: 10px;
 }
