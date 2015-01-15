@@ -39,7 +39,12 @@ nav div
 nav a{
   color:#484848 ;
   text-decoration:none;
-
+}
+nav div:hover{
+  background-color: #E65C00;
+}
+nav a:hover{
+  color:white;
 }
 .introduction{
      margin-left:10%;
@@ -49,5 +54,4 @@ nav a{
 }
 .whole_part{
   margin-left: 10px;
-
 }
