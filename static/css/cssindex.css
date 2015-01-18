@@ -9,6 +9,7 @@ section{
  margin-left:10%;
  margin-top: 50px;
 }
+
 #profile_pic{
  float:right;
  border:5px solid #E6E6E6;
@@ -48,11 +49,9 @@ nav a:hover{
 .introduction{
      margin-left:10%;
      margin-right: 10%;
-     
      background-color: #D6E0FF;
      border:5px solid  #7094FF;
      border-radius:25px;
-
 }
 .whole_part{
   margin-left: 10px;
