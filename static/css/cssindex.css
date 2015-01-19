@@ -14,10 +14,11 @@ section{
  float:right;
  border:5px solid #E6E6E6;
  border-radius: 150px;
+
 }
 #profile_pic:hover{
-  width:300px;
-  height:300px;
+  width:25%;
+  height:auto;
 }
 nav{
 
@@ -56,4 +57,8 @@ nav a:hover{
 .whole_part{
   margin-left: 10px;
   margin-right: 10px;
+}
+.projects:hover{
+  width:50%;
+  height:auto;
 }
