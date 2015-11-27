@@ -4,10 +4,31 @@ body{
 nav {
 	background-color: #37474f ;
 }
+
+/*index page css*/
+.hr{
+	width: 10%;
+	height: 2px;
+	background-color: #78909c;
+	margin-bottom: 10px;
+
+}
 .site-title{
 	color: #fff;
 }
 
 .page-footer{
 	background-color: #37474f !important;
+}
+
+#about-me{
+ text-align: justify;
+}
+
+.post-header h1{
+	font-size: 2.28rem;
+	text-align: center;
+}
+.post-meta{
+	text-align: center;
 }
