@@ -1,37 +1,29 @@
 ---
 layout: default
 ---
+<div class="container">
+
 <div>
+    <h4 class="center-align">Welcome to the my world</h4>
+</div>
+<center><hr class="hr"></center>
+<div>
+   <p id="about-me">Hi! Presently I'm a rising junior undergraduate studying Information Technology at JSS Academy Of Technical Education in Noida. Basically i am a tech-enthusiast and i love to solve physical world problem by connecting it to digital world where i have much command in order to get perfect solution. I live by a simple code- Do digital, Be digital but Live physical. Apart from coding i used to play cricket, watch cricket when indian team is playing, Enjoying Parties with friends, listening music and singing as well.</p>
+</div>
+
+<div>
+<div>
+    <h4 class="center-align">Recent Blog</h4>
+</div>
+<center><hr class="hr"></center>
+    <ul class="post-list">
     {% for post in site.posts limit:1 %}
      <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
         <p>{{ post.excerpt }}</p>
       </li>
 {% endfor %}
+   </ul>
 </div>
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <p>{{ post.excerpt }}</p>
-      </li>
-    {% endfor %}
-  </ul>
-
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>
-
