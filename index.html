@@ -19,9 +19,9 @@ layout: default
     <ul class="post-list">
     {% for post in site.posts limit:1 %}
      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta chip">{{ post.date | date: "%b %-d, %Y" }}</span>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <p>{{ post.excerpt }}</p>
+        <p class="truncate_words">{{ post.excerpt }}</p>
       </li>
 {% endfor %}
    </ul>
