@@ -32,3 +32,11 @@ nav {
 .post-meta{
 	text-align: center;
 }
+
+
+/*Resume css*/
+#resumepdf{
+	width: 80%;
+	min-height: 600px;
+}
+/*Resume css ends here*/
