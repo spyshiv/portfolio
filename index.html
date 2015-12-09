@@ -8,7 +8,7 @@ layout: default
 </div>
 
 <div>
-   <p id="about-me">A tech enthusiast is here. Surprise!! just kidding. I am passionate coder having love for children, nature and pets.</p>
+   <p id="about-me">A tech enthusiast is here. Surprise!! just kidding. I am passionate coder having love for children, nature and pets. I care about my country and my vision is to see myself contributing for people around me. I always want to be a part of solution to the real world problem. I never give up if i don't know something, Give me sometime i will find that. To know more about me please contact me. </p>
 </div>
 
 <div class="recent-blog-list">
@@ -17,10 +17,11 @@ layout: default
 </div>
 <hr class="hr">
     <ul class="post-list">
-    {% for post in site.posts limit:1 %}
+    {% for post in site.posts limit:4 %}
      <li>
+        <i class="material-icons">date_range</i>
         <span class="post-meta chip">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="material-icons">gesture</i>&nbsp;{{ post.title }}</a>
         <p class="truncate_words">{{ post.excerpt }}</p>
       </li>
 {% endfor %}
