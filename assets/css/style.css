@@ -8,6 +8,9 @@ nav {
 .site-title{
   padding-left: 10px;
 }
+.page-footer{
+	background-color: #37474f !important;
+}
 /*Header Css ends here*/
 /*index page css*/
 #hofhi{
@@ -23,12 +26,18 @@ nav {
 .site-title{
 	color: #fff;
 }
-
-.page-footer{
-	background-color: #37474f !important;
+#about-me{
+	padding: 10px;
 }
+#about-me-image{
+	padding: 10px;
+	float:right;
+	max-height:200px;
+	width:auto
+}
+
 .recent-blog-list{
-  
+ clear:both; 
 }
 .post-list p{
 text-align: justify;
