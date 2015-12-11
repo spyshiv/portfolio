@@ -5,9 +5,13 @@ permalink: /blog/
 ---
 <div class="container">
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
+  
+  <div class="row">
+   <div class="col">
+     <h3>Posts</h3>
+   </div>
+ 
+  </div>
   <ul class="post-list">
     {% for post in site.posts limit:4 %}
      <li>
@@ -18,11 +22,11 @@ permalink: /blog/
       </li>
 {% endfor %}
    </ul>
-  <p class="rss-subscribe chip">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe chip">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank"><img src="{{"/assets/images/rss.png"}}" class="responsive-img" style="max-height:40px; width:auto;"></a></p>
 
 </div>
 
-<ul class="posts">  
+<!-- <ul class="posts">  
 	{% for post in site.posts limit:20 %}  
 	   <li>  
 		   <span>{{ post.date | date_to_string }}</span> &raquo;  
@@ -42,6 +46,6 @@ permalink: /blog/
     {% endfor %}
     </ul>
   </li>
-{% endfor %}
+{% endfor %} -->
 
 </div>
