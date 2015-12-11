@@ -9,14 +9,15 @@ permalink: /blog/
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li >
+    {% for post in site.posts limit:4 %}
+     <li>
+        <i class="material-icons">date_range</i>
         <span class="post-meta chip">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="material-icons">gesture</i>&nbsp;{{ post.title }}</a>
+        <p class="truncate_words">{{ post.excerpt }}</p>
       </li>
-    {% endfor %}
-  </ul>
+{% endfor %}
+   </ul>
   <p class="rss-subscribe chip">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
