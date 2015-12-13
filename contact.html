@@ -4,28 +4,10 @@ title: Contact
 permalink: /contact/
 ---
 <div class="container">
-
 <div>
-    <h4 class="center-align">Contact</h4>
-</div>
-<center><hr class="hr"></center>
-<div>
-   <p id="about-me" data-dummy="1p"></p>
+    <img src="{{"/assets/images/coming.png"}}" style="width:100%;height:auto;">
+    <h3 class="center-align"><b>"Coming Soon"</b></h3>
 </div>
 
-<div>
-<div>
-    <h4 class="center-align">Recent Blog</h4>
-</div>
-<center><hr class="hr"></center>
-    <ul class="post-list">
-    {% for post in site.posts limit:1 %}
-     <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <p>{{ post.excerpt }}</p>
-      </li>
-{% endfor %}
-   </ul>
-</div>
+
 </div>
