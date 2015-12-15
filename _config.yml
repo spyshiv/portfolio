@@ -17,4 +17,5 @@ github_username:  spyshiv
 
 # Build settings
 markdown: kramdown
-
+gems:
+- jemoji
