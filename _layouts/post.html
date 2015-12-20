@@ -7,8 +7,23 @@ layout: default
         <span class="post-meta chip">{{ page.date | date: "%b %-d, %Y" }}</span>
           <a class="post-link" ><i class="material-icons">gesture</i>&nbsp;{{ page.title }}</a>
         <p>{{ content }}</p>
+            <div id="pagination">
+            
+			{% if page.previous and page.previous.categories contains page.categories %}
+
+			  <a href="{{ page.previous.url }}" class="left"> Previous</a>
+
+			  {% else if page.next and page.next.categories contains page.categories %}
+
+			  <a href="{{ page.next.url }}" class="right">Next</a>
+
+
+			{% endif %}
+			</div>
 
         <a href="http://shivbaran.in/"><i class="material-icons">edit</i>&nbsp;{{ page.author }}</a>
       </li>
 
    </ul>
+
+   
