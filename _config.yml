@@ -19,3 +19,5 @@ github_username:  spyshiv
 markdown: kramdown
 gems:
 - jemoji
+
+theme: jekyll-theme-merlot
