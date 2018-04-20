@@ -5,29 +5,5 @@ layout: default
 
 <div>
     <h5><span id="hofhi">Hi,</span></h5>
+    <p>This site is under maintenance</p>
 </div>
-
-<div class="row">
-    <p id="about-me">
-    <img src="{{"/assets/images/geek.jpg"}}" id="about-me-image">
-    A tech enthusiast is here. Surprise!! just kidding. I am passionate coder having love for children, nature and pets. I care about my country and my vision is to see myself contributing for people around me. I always want to be a part of solution to the real world problem. I am hard worker and quick learner. In my perception i love to help people that is the best thing about me but how much truth behind this, I can't say but I always try to help. I care about poor people specially and I want to do something big to reduce poverty from our country. I am seeking for full time opportunities starting from may-june 2016. To know more about me please contact me. </p>
-   
-     
-</div>
-<div class="recent-blog-list">
-<div>
-    <h4>Recent Blog</h4>
-</div>
-<hr class="hr">
-    <ul class="post-list">
-    {% for post in site.posts limit:4 %}
-     <li>
-        <i class="material-icons">date_range</i>
-        <span class="post-meta chip">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="material-icons">gesture</i>&nbsp;{{ post.title }}</a>
-        <p class="truncate_words">{{ post.excerpt }}</p>
-      </li>
-{% endfor %}
-   </ul>
-</div>
-
